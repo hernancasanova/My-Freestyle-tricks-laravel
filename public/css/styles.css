@@ -1,0 +1,119 @@
+#header{
+	width: 100%;
+	height: 100px;
+	/*background-color: rgb(255,51,51,.5);*/
+	text-align: center;
+	vertical-align: baseline;
+	font-family: 'Arvo', serif;
+	font-size: 42px;
+	color: white;
+	text-shadow: 5px 5px 10px yellow;
+}
+#content{
+	width: 100%;
+	height: 600px;
+	/*background-color: rgb(240,10,24,.5);*/
+	margin: auto;
+	padding: 10px;
+}
+#content label{
+	text-shadow: 5px 5px 10px yellow;
+}
+#FormRegister{
+	background-color: rgb(250,250,250,.5);
+	margin-left: 35%;
+	width: 400px;
+	padding: 10px;
+}
+#FormRegister input,option{
+	margin-top: 5px;
+}
+textarea{
+	margin-top:10px;
+	vertical-align: top;
+}
+.video{
+	display: inline-block;
+}
+
+/*video{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}*/
+p{
+	font-size: 24px;
+}
+form{
+	display: inline-block;
+}
+#TrickDescription input[type=text]{
+	margin-bottom: 5px;
+}
+#footer{
+	width: 100%;
+	height: 130px;
+	background-color: rgb(24,240,10,.2);
+	font-size: 28px;
+	color: white;
+	vertical-align: baseline;
+	padding-top: 50px;
+	margin-top: 90px;
+	/*background-color: green;
+	opacity: .3*/
+}
+#logo_page{
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+video{
+	padding: 20px;
+}
+article{
+	border: 1px solid black;
+	padding: 5px;
+}
+/*h1{
+	font-family: 'Arvo', serif;
+}*/
+a, a:hover{
+	text-decoration: none;
+}
+body{
+	background-image: url("../images/palle.jpg");
+	background-repeat: no-repeat;	
+	background-size: 100% 100%;
+	height:1000px;
+}
+#TricksDescription{
+	display: inline-block;
+	width: 510px;
+	height: 540px;
+	background-color: rgb(251,251,251,.5);
+	margin-left: 160px;
+	vertical-align: top;
+	padding: 10px;
+	overflow: auto;
+	/*color: black;
+	padding: 2px;
+	font-size: 24px;
+	border: 1px solid steelblue;*/
+	/*background-color: blue;*/
+}
+#TrickDescription{
+	display: inline-block;
+	width: 510px;
+	height: auto;
+	background-color: rgb(251,251,251,.5);
+	margin-left: 160px;
+	vertical-align: top;
+	padding: 10px;
+	overflow: auto;
+}
+#VideoTrick{
+	display: inline-block;
+	width: 510px;
+	height: 540px;
+	background-color: rgb(251,251,251,.5);
+}
